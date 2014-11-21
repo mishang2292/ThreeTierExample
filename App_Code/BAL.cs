@@ -10,7 +10,7 @@ using System.Web;
 /// </summary>
 public class BAL
 {
-    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=D:\Ashish\App_Data\Database.mdf;Integrated Security=True");
+    SqlConnection con = new SqlConnection(@"Server=0213f5ee-3206-46a1-8a29-a3ea00be4fc9.sqlserver.sequelizer.com;Database=db0213f5ee320646a18a29a3ea00be4fc9;User ID=cwkjakaqcmzqzawb;Password=mZj2eiWJ2z5eA8uZmPVmDXKDNrzpknmpJqMDNgb6fWDHC5nfhcBqnPGwoMnURGyM");
     SqlCommand cmd;
     SqlDataAdapter da;
     DataTable dt;
